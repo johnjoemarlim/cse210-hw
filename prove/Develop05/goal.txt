@@ -1,0 +1,4 @@
+1000
+SimpleGoal~~give a talk~~speak at sacrament~~100~~True
+EternalGoal~~read scriptures~~read a chapter each day~~25
+ChecklistGoal~~Attend the temple~~go to temple and perform ordinances~~100~~500~~4~~4
