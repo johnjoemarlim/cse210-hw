@@ -354,14 +354,10 @@ public class GoalManager
                 name = parts[1];
                 description = parts[2];
                 points = int.Parse(parts[3]);
-                if (int.TryParse(parts[4], out int result) == true)
-                {
-                    bonus = int.Parse(parts[4]);
-                }
-                else
-                {
-                    bool IsComplete = bool.Parse(parts[4]);
-                }
+                
+                bonus = int.Parse(parts[4]);
+                
+                
                 target = int.Parse(parts[5]);
                 amountCompleted = int.Parse(parts[6]);
                 ChecklistGoal cG = new ChecklistGoal(name, description, points, target, bonus, amountCompleted);
